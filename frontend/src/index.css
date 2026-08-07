@@ -1,0 +1,158 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  --accent: #2563eb;
+  --card-bg: rgba(127, 127, 127, 0.08);
+  --muted: rgba(127, 127, 127, 0.9);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(640px, 92vw);
+  padding: 3rem 0 4rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+}
+
+.tagline {
+  color: var(--muted);
+  margin: 0;
+}
+
+.search-box {
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 0.85rem 1.1rem;
+  border-radius: 12px;
+  border: 2px solid rgba(127, 127, 127, 0.35);
+  outline: none;
+}
+
+.search-box:focus {
+  border-color: var(--accent);
+}
+
+.results {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.result-card {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.9rem 1.1rem;
+  border-radius: 12px;
+  background: var(--card-bg);
+}
+
+.acronym {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--accent);
+  min-width: 4.5rem;
+}
+
+.expansion {
+  font-weight: 600;
+}
+
+.description {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.15rem;
+}
+
+.no-results {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.did-you-mean button {
+  border: none;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.did-you-mean ul {
+  list-style: none;
+  padding: 0;
+}
+
+.add-section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.toggle-add {
+  background: none;
+  border: 1px solid rgba(127, 127, 127, 0.4);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.add-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-align: left;
+}
+
+.add-form input {
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid rgba(127, 127, 127, 0.4);
+  font: inherit;
+}
+
+.add-form button[type="submit"] {
+  align-self: flex-start;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.status-ok {
+  color: #16a34a;
+}
+
+.status-error {
+  color: #dc2626;
+}

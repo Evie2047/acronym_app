@@ -1,0 +1,29 @@
+acronym,expansion,description
+ED,Emergency Department,Where patients receive urgent and emergency care
+OP,Outpatients,Clinics for patients who attend without being admitted
+IP,Inpatients,Patients admitted to a hospital bed
+A&E,Accident and Emergency,Older name for the Emergency Department
+GP,General Practitioner,Family doctor providing primary care
+ICU,Intensive Care Unit,Ward for critically ill patients needing close monitoring
+ITU,Intensive Therapy Unit,Alternative name for the Intensive Care Unit
+HDU,High Dependency Unit,Care level between a general ward and intensive care
+ECG,Electrocardiogram,Recording of the heart's electrical activity
+EEG,Electroencephalogram,Recording of the brain's electrical activity
+MRI,Magnetic Resonance Imaging,Detailed scan using magnetic fields
+CT,Computed Tomography,Cross-sectional X-ray scan
+DNA,Did Not Attend,A patient who missed their appointment without notice
+DOB,Date of Birth,Patient's date of birth
+NHS,National Health Service,The UK's publicly funded healthcare system
+PAS,Patient Administration System,System recording admissions and appointments
+EPR,Electronic Patient Record,Digital version of a patient's chart
+LOS,Length of Stay,Time between admission and discharge
+RTT,Referral to Treatment,Waiting time from referral to start of treatment
+TCI,To Come In,Date a patient is scheduled to be admitted
+NBM,Nil By Mouth,Patient must not eat or drink
+PRN,Pro Re Nata,Medication taken as needed rather than on a schedule
+BD,Bis Die,Medication taken twice daily
+TDS,Ter Die Sumendum,Medication taken three times daily
+OT,Occupational Therapy,Therapy helping patients with daily activities
+SALT,Speech and Language Therapy,Assessment and treatment of speech and swallowing
+MDT,Multidisciplinary Team,Group of professionals planning care together
+WL,Waiting List,Patients waiting for treatment or surgery
